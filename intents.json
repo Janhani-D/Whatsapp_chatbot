@@ -1,0 +1,20 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening"],
+      "responses": ["Hello! 👋 How can I help you today?"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "what can you do", "options", "menu"],
+      "responses": ["Here’s what I can do:\n1️⃣ Provide info\n2️⃣ Answer FAQs\n3️⃣ Support queries"]
+    },
+    {
+      "tag": "support",
+      "patterns": ["issue", "problem", "not working", "support"],
+      "responses": ["Sure! Please describe the issue you’re facing."]
+    }
+  ]
+}
+    
